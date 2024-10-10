@@ -50,7 +50,7 @@ abutton.addEventListener("click", function () {
     updateCount();
   } else {
     // If the input is invalid (empty or too long), show an alert and clear the input field
-    alert("Make sure character amount is between one 1 and 30");
+    alert("Make sure character amount is between one 1 and 30.");
     text.value = '';
   }
 });
