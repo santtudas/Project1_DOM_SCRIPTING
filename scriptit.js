@@ -50,7 +50,7 @@ abutton.addEventListener("click", function () {
     updateCount();
   } else {
     // If the input is invalid (empty or too long), show an alert and clear the input field
-    alert("Wrong input, try again");
+    alert("Make sure character amount is between one 1 and 30");
     text.value = '';
   }
 });
@@ -83,6 +83,7 @@ function remove() {
   updateCount();
 }
 
+// Function to remove all items
 function removeAll() {
   let elements = document.querySelectorAll('li');
   for (let element of elements) {
