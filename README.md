@@ -2,7 +2,7 @@
 Todo-list, created by Santeri Pulliainen.
 
 ## Demo link:
-Access my site at [Netlify.com](https://curious-belekoy-002f53.netlify.app)
+Access my site via [Netlify.com](https://curious-belekoy-002f53.netlify.app)
 
 ## How was the workload divided
 I did everything on my own.
