@@ -20,5 +20,4 @@ I did everything on my own.
 This project was built using HTML, CSS, and JavaScript.
 
 ## Setup
-You can view Todo-list in previously mentioned link at Netlify.com.
-
+You can view the Todo-list through the previously mentioned link on Netlify.com.
