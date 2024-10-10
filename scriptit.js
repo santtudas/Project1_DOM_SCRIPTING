@@ -80,5 +80,13 @@ function remove() {
   for (let element of elements) {
     element.remove();
   }
-  updateCount()
+  updateCount();
+}
+
+function removeAll() {
+  let elements = document.querySelectorAll('li');
+  for (let element of elements) {
+    element.remove();
+  }
+  updateCount();
 }
