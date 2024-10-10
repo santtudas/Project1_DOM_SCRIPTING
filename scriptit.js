@@ -55,6 +55,13 @@ abutton.addEventListener("click", function () {
   }
 });
 
+// Listen for Enter press
+text.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    abutton.click();
+  }
+});
+
 // Function to count how many tasks to do
 function updateCount() {
   let tasksDone = document.querySelectorAll('.done');
