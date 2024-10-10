@@ -1,5 +1,6 @@
 html, body { 
   height: 100%;
+  background-color: beige;
  }  
 html {
   display: table;
@@ -14,17 +15,24 @@ h1 {
 }
 
 #textBox {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#addButton {
+  margin-left: 5px;
 }
 
 #Lista {
   border: 1px solid #cecece;
-  padding: 0px
+  padding: 0px;
+  margin-bottom: 10px;
 }
 
 ul {
   list-style-type: none;
-  font-size: 25px;
+  font-size: 20px;
   padding: 0px;
   margin: 0px;
 }
@@ -32,15 +40,15 @@ ul {
 li {
   padding: 5px;
   border: 1px solid #cecece;
+  background-color: white;
 }
 
 #Lista input[type="checkbox"] {
-  margin: 0 10px;
+  margin-right: 10px;
  }
 
 li.done {
   color: rgb(197, 197, 197);
-  
 }
 
 #Lista li input[type="checkbox"]:checked {
@@ -51,10 +59,6 @@ li.done {
   text-decoration: line-through;
   text-decoration-color: rgb(197,197,197);
   text-decoration-thickness: 2px; 
-}
-
-#clearButton {
-  margin-top: 5px
 }
 
 button {
@@ -78,4 +82,21 @@ button:hover {
   background-color: #f3f4f6;
   border-color: #1b1f2326;
   transition-duration: 0.1s;
+  opacity: 1;
+}
+
+#deleteButton {
+  float: right;
+  margin-left: 10px;
+  transform: scale(0.7);
+  font-size: 90%;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.1s;
+ }
+
+#taskCounter {
+  font-size: 24px;
+  float: right;
+  margin: auto;
 }
