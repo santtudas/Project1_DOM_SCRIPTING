@@ -1,8 +1,8 @@
 # Project Title 
-The name of the Project and all authors involved
+Todo-list, created by Santeri Pulliainen.
 
 ## Demo link:
-Access my site at [Netlify.com](https://curious-belekoy-002f53.netlify.app)
+Access my site via [Netlify.com](https://curious-belekoy-002f53.netlify.app)
 
 ## How was the workload divided
 I did everything on my own.
@@ -20,5 +20,4 @@ I did everything on my own.
 This project was built using HTML, CSS, and JavaScript.
 
 ## Setup
-You can view Todo-list in previously mentioned link at Netlify.com.
-
+You can view the Todo-list through the previously mentioned link on Netlify.com.
