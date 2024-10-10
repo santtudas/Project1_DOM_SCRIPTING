@@ -1,5 +1,5 @@
 # Project Title 
-The name of the Project and all authors involved
+Todo-list, created by Santeri Pulliainen.
 
 ## Demo link:
 Access my site at [Netlify.com](https://curious-belekoy-002f53.netlify.app)
